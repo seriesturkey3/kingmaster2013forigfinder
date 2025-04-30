@@ -281,8 +281,8 @@ with tabs[2]:
     st.markdown("<div class='profile-card'>", unsafe_allow_html=True)
     st.markdown("Enter usernames (one per line):")
     
-    # Text area for usernames
-    bulk_usernames = st.text_area("", height=150, key="bulk_usernames")
+    # Text area for usernames - Fixed the empty label issue
+    bulk_usernames = st.text_area("Usernames", height=150, key="bulk_usernames")
     
     col1, col2 = st.columns(2)
     
@@ -402,4 +402,4 @@ with tabs[2]:
                 st.markdown("</div>", unsafe_allow_html=True)
 
 # Footer
-st.markdown("<div class='footer'>Made by [KingMaster2013]</div>", unsafe_allow_html=True)
+st.markdown("<div class='footer'>Made by [Your Name]</div>", unsafe_allow_html=True)
