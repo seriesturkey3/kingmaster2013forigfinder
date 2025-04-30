@@ -402,4 +402,4 @@ with tabs[2]:
                 st.markdown("</div>", unsafe_allow_html=True)
 
 # Footer
-st.markdown("<div class='footer'>Made by [Your Name]</div>", unsafe_allow_html=True)
+st.markdown("<div class='footer'>Made by [KingMaster2013]</div>", unsafe_allow_html=True)
