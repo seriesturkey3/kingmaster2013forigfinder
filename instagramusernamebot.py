@@ -403,3 +403,14 @@ with tabs[2]:
 
 # Footer
 st.markdown("<div class='footer'>Made by [KingMaster2013]</div>", unsafe_allow_html=True)
+
+# WhatsApp button at the bottom-left
+st.markdown("""
+    <div style="position: fixed; bottom: 10px; left: 10px;">
+        <a href="https://wa.me/1234567890" target="_blank">
+            <button style="background-color: #25D366; color: white; border: none; padding: 15px 32px; text-align: center; font-size: 16px; border-radius: 8px; cursor: pointer;">
+                Chat with us on WhatsApp
+            </button>
+        </a>
+    </div>
+    """, unsafe_allow_html=True)
