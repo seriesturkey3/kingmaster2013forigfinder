@@ -1,1 +1,1 @@
-web: streamlit run instagram_bot.py --server.port $PORT
+web: streamlit run instagramusernamebot.py --server.port $PORT
